@@ -1,0 +1,14 @@
+body {
+  background-image: url("./assets/images/light-backgroud.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Align content vertically */
+}
+
+.App {
+  flex: 1; /* Allow App to take remaining vertical space */
+}
